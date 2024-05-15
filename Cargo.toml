@@ -22,7 +22,7 @@ wasm = ["json", "wasm-bindgen", "serde-wasm-bindgen", "console_error_panic_hook"
 
 [dependencies]
 # bitcoin = "0.31.0"
-bitcoin = { git = "https://github.com/cyl19970726/rust-bitcoin", branch = "merge" }
+bitcoin = { git = "https://github.com/cyl19970726/rust-bitcoin", rev = "ffad6f3" }
 lazy_static = "1.4.0"
 
 # cli
